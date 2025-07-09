@@ -1,0 +1,19 @@
+[project]
+name = "hf-stellarator"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "SaiAakash",email = "saiaakash60@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "botorch (>=0.13.0)",
+    "datasets (==3.5.1)",
+    "constellaration (>=0.2.1,<0.3.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
